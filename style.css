@@ -15,3 +15,6 @@ html, body {
     height:40vh;
     object-fit: cover;
 }
+.white-card {
+    display: flex;
+}
