@@ -9,6 +9,7 @@ html, body {
     height: 100%;
     display: flex;
     flex-direction: column;
+    font-family: 'Work Sans';
 }
 #math {
     width: 100%;
@@ -18,10 +19,30 @@ html, body {
 .white-card {
     display: flex;
     flex-direction: column;
-    width: 30em;
+    width: 34em;
     height: 30em;
     align-self: center;
-    box-shadow: 0 0 30px 5px;
+    box-shadow: 0 0 15px 6px hsla(292, 73%, 47%, 0.226);
     border-radius: 10px;
-    padding: 40px;
+    padding: 36px;
+    z-index: 10;
+    position: relative;
+    bottom: 120px;
+    background-color: white;
+}
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
+.FAQ {
+    font-size: 38px;
+    font-weight: 660;
+}
+.rhetorical-question {
+    font-weight: 570;
+    margin-left: 4px;
+    margin-top: 20px;
 }
