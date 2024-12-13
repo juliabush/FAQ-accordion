@@ -45,4 +45,16 @@ html, body {
     font-weight: 570;
     margin-left: 4px;
     margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.rhetorical-question::after {
+    content: url(assets/images/icon-plus.svg);
+   margin-left: auto;
+}
+.rhetorical-question.active::after {
+    content: url(assets/images/icon-minus.svg);
 }
