@@ -22,7 +22,7 @@ html, body {
     width: 34em;
     height: 30em;
     align-self: center;
-    box-shadow: 0 0 15px 6px hsla(292, 73%, 47%, 0.226);
+    box-shadow: 0 15px 40px 20px hsla(292, 65%, 51%, 0.205);
     border-radius: 10px;
     padding: 36px;
     z-index: 10;
