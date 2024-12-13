@@ -17,4 +17,11 @@ html, body {
 }
 .white-card {
     display: flex;
+    flex-direction: column;
+    width: 30em;
+    height: 30em;
+    align-self: center;
+    box-shadow: 0 0 30px 5px;
+    border-radius: 10px;
+    padding: 40px;
 }
