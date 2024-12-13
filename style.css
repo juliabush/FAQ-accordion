@@ -53,7 +53,7 @@ html, body {
 
 .rhetorical-question::after {
     content: url(assets/images/icon-plus.svg);
-   margin-left: auto;
+    margin-left: auto;
 }
 .rhetorical-question.active::after {
     content: url(assets/images/icon-minus.svg);
